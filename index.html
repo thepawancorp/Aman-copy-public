@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A modern, minimal studio website with bilingual support and local lead capture." />
+    <title>Aman Studio | Minimal Digital Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#home">
+          <span class="brand-mark">A</span>
+          <span>Aman Studio</span>
+        </a>
+        <div class="topbar-actions">
+          <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">EN / HI</button>
+          <nav class="nav-links">
+            <a href="#services" data-i18n="nav.services">Services</a>
+            <a href="#work" data-i18n="nav.work">Work</a>
+              <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </nav>
+          </div>
+        </header>
+        <section class="profile-panel">
+          <div class="profile-photo-wrapper">
+            <img src="profile.jpg" alt="Aman profile photo" class="profile-photo" />
+          </div>
+          <div class="profile-copy">
+            <p class="eyebrow">About me</p>
+            <h2>Hello, I’m Aman — a digital studio founder.</h2>
+            <p>I build calm, polished websites and thoughtful conversion systems for ambitious brands. My work blends modern design with lead capture and automation, so your online presence feels clear, trusted, and easy for clients to engage with.</p>
+          </div>
+        </section>
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Premium digital studio</p>
+            <h1 data-i18n="hero.title">Elegant websites, thoughtful automation, and calm conversions.</h1>
+            <p data-i18n="hero.subtitle">We design clear, modern digital experiences for founders and premium brands that want to look polished and convert with ease.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact" data-i18n="hero.ctaPrimary">Start your project</a>
+              <a class="btn btn-primary" href="#services" data-i18n="hero.ctaSecondary">View services</a>
+            </div>
+            <ul class="hero-points">
+              <li data-i18n="hero.point1">Minimal and fast design</li>
+              <li data-i18n="hero.point2">Smart conversion-driven experiences</li>
+              <li data-i18n="hero.point3">Clean lead capture and follow-up</li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card-glow"></div>
+            <div class="metric-grid">
+              <div>
+                <strong>+38%</strong>
+                <span data-i18n="stats.leadLift">Average lead lift</span>
+              </div>
+              <div>
+                <strong>24/7</strong>
+                <span data-i18n="stats.support">Premium support</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span data-i18n="stats.satisfaction">Client satisfaction</span>
+              </div>
+              <div>
+                <strong>3x</strong>
+                <span data-i18n="stats.speed">Faster follow-up</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section animated-section" id="animatedFeature">
+          <div id="heroReactRoot"></div>
+        </section>
+
+        <section class="section" id="services">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="services.eyebrow">Services</p>
+            <h2 data-i18n="services.title">Crafted for ambitious brands.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="info-card">
+              <h3 data-i18n="services.oneTitle">Brand Experience</h3>
+              <p data-i18n="services.oneText">Refined visuals, thoughtful messaging, and a premium web presence that feels effortless.</p>
+            </article>
+            <article class="info-card">
+              <h3 data-i18n="services.twoTitle">Conversion Flow</h3>
+              <p data-i18n="services.twoText">Clean landing pages, simple automation, and lead capture designed to feel calm and clear.</p>
+            </article>
+            <article class="info-card">
+              <h3 data-i18n="services.threeTitle">Conversion Systems</h3>
+              <p data-i18n="services.threeText">Conversion systems that capture leads and guide clients to the next step.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="work">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="work.eyebrow">Featured work</p>
+            <h2 data-i18n="work.title">Modern, polished, and built to convert.</h2>
+          </div>
+          <div class="portfolio-grid">
+            <article class="portfolio-card">
+              <h3>Vanta Capital</h3>
+              <p data-i18n="work.oneText">A confident finance presence with strong trust signals and a calm lead journey.</p>
+            </article>
+            <article class="portfolio-card">
+              <h3>Northstar Labs</h3>
+              <p data-i18n="work.twoText">A high-conversion launch site with intelligent support built into the experience.</p>
+            </article>
+            <article class="portfolio-card">
+              <h3>Halo Atelier</h3>
+              <p data-i18n="work.threeText">A refined luxury brand experience that balances elegance with clarity.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section process-section">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="process.eyebrow">Process</p>
+            <h2 data-i18n="process.title">A straightforward path from first click to first client.</h2>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <span>01</span>
+              <h3 data-i18n="process.oneTitle">Discover</h3>
+              <p data-i18n="process.oneText">We understand your offer, audience, and ideal client journey.</p>
+            </div>
+            <div class="step">
+              <span>02</span>
+              <h3 data-i18n="process.twoTitle">Build</h3>
+              <p data-i18n="process.twoText">We shape the experience and connect your follow-up systems with care.</p>
+            </div>
+            <div class="step">
+              <span>03</span>
+              <h3 data-i18n="process.threeTitle">Grow</h3>
+              <p data-i18n="process.threeText">Your site and workflows work together to nurture and convert.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="contact-card">
+            <div class="contact-copy">
+              <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+              <h2 data-i18n="contact.title">Let’s create something refined.</h2>
+              <p data-i18n="contact.description">Tell us about your brand, goals, and current focus. We will follow up with a thoughtful plan and clear next steps.</p>
+              <div class="social-links">
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
+                <a href="https://wa.me/" target="_blank" rel="noreferrer">WhatsApp</a>
+              </div>
+            </div>
+            <form id="contactForm" class="contact-form">
+              <label>
+                <span data-i18n="form.name">Name</span>
+                <input type="text" name="name" required data-i18n-placeholder="form.namePlaceholder" placeholder="Your name" />
+              </label>
+              <label>
+                <span data-i18n="form.email">Email</span>
+                <input type="email" name="email" required data-i18n-placeholder="form.emailPlaceholder" placeholder="your@email.com" />
+              </label>
+              <label>
+                <span data-i18n="form.company">Company</span>
+                <input type="text" name="company" data-i18n-placeholder="form.companyPlaceholder" placeholder="Your company" />
+              </label>
+              <label>
+                <span data-i18n="form.brief">Project brief</span>
+                <textarea name="brief" rows="4" required data-i18n-placeholder="form.briefPlaceholder" placeholder="Tell us about your goals"></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit" data-i18n="form.submit">Request a proposal</button>
+              <p class="form-status" id="contactStatus" data-i18n="contact.status">Your submission will be saved securely.</p>
+            </form>
+          </div>
+        </section>
+
+        <section class="section map-section" id="location">
+          <div class="section-heading">
+            <p class="eyebrow">Location</p>
+            <h2>Find us on the map</h2>
+          </div>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps?q=Digital%20Studio&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <p class="footer-title">Aman Studio</p>
+            <p class="footer-description" data-i18n="footer.text">Minimal digital experiences for modern brands.</p>
+          </div>
+          <div class="footer-contact">
+            <p class="footer-heading">Contact</p>
+            <a href="mailto:hello@amanstudio.com">hello@amanstudio.com</a>
+            <a href="tel:+1234567890">+1 234 567 890</a>
+            <a href="https://wa.me/1234567890" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+          <div class="footer-info">
+            <p class="footer-heading">Office</p>
+            <p>123 Creative Street<br />Bengaluru, India</p>
+            <p>Mon–Fri · 9am–6pm IST</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Aman Studio. <span data-i18n="footer.text">Minimal digital experiences for modern brands.</span></p>
+        </div>
+      </footer>
+    </div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
